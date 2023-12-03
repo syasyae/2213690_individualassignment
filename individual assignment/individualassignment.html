@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rm1 campaign </title>
+    <link rel="stylesheet" href="individualassignment.css">
+    <script src="individualassignment.js"></script>
+</head>
+
+<body>
+
+    <header class="header">
+        <div class="logo-container">
+            <img src="KOED-IIUM-logo-with-label-895x1024-removebg-preview.png" alt="Logo" class="logo">
+        </div>
+        <nav class="navigation">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#Form">Participation Form</a></li>
+                <li><a href="#Contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+
+    <section id="home" class="section">
+        <div class="campaign-details">
+            <h1 class="website-name">RM 1 CAMPAIGN</h1>
+            <h2 class="tagline">Let your contributions be</h2>
+            <h3 class="tagline2">PERPETUAL</h3>
+            <h4 class="tagline3">for the pleasure of Allah swt</h4>
+            <p class="surah">
+                “The example of those who spend their wealth in the way of Allah is like a seed [of grain] which grows
+                seven spikes; in each spike is a hundred grains. And Allah multiplies [His reward] for whom He wills.
+                And Allah is all-Encompassing and Knowing.”
+                Al Baqarah:261
+            </p>
+        </div>
+    </section>
+
+    <section id="Form" class="section">
+
+        <h6 class="form-title">Participation Form</h6>
+
+
+        <form class="my-form" method="post" action="submit.php">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required><br><br>
+
+            <label for="staffNo">Staff No.:</label>
+            <input type="text" id="staffNo" name="staffNo" required><br><br>
+
+            <label for="department">K/C/D/I/O:</label>
+            <input type="text" id="department" name="department" required><br><br>
+
+            <label for="contactNo">Contact No.(+60123456789):</label>
+            <input type="tel" id="contactNo" name="contactNo" placeholder="Enter contact number" pattern="[+]\d{11}"
+                title="Please enter a valid contact number in the format +60198739087" required><br><br>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br><br>
+
+            <label for="amount">Amount to be Deducted RM:</label>
+            <input type="number" id="amount" name="amount" required><br><br>
+
+            <label for="startDate">Start Date:</label>
+            <input type="month" id="startDate" name="startDate" required><br><br>
+
+            <label for="endDate">End Date:</label>
+            <input type="month" id="endDate" name="endDate"><br><br>
+
+            <label>Participation Type:</label><br>
+            <input type="radio" id="own" name="participationType" value="own" checked onclick="disableKulliyah()">
+            <label for="own">Own</label><br>
+            <input type="radio" id="kulliyah" name="participationType" value="kulliyah" onclick="enableKulliyah()">
+            <label for="kulliyah">For Kulliyah of:</label>
+            <input type="text" id="kulliyahName" name="kulliyahName" placeholder="Enter Kulliyah's name"
+                disabled><br><br>
+            <div class="agree-checkbox">
+                <input type="checkbox" id="agree" name="agree" required>
+                <label for="agree">I agree to the terms and conditions</label>
+            </div>
+
+            <input type="submit" value="Submit">
+            <input type="reset" value="Reset">
+        </form>
+        <div id="result"></div>
+
+    </section>
+
+    <section id="Contact" class="contactsection">
+        <h7 class="contact">Contact Us</h7>
+        <div class="contact-info">
+            <p><strong>Address:</strong><br> <strong>IIUM ENDOWMENT FUND</strong><br>
+                LEVEL 3, RECTORY<br>
+                INTERNATIONAL ISLAMIC UNIVERSITY MALAYSIA<br>
+                P.O. BOX 10<br>
+                50728 KUALA LUMPUR<strong></p>
+            <p><strong>Telephone:</strong>03 61964268</p>
+            <p><strong>Email:</strong> ief@iium.edu.my</p>
+            <p><strong>Website:</strong> <a href="https://division.iium.edu.my/ief/"
+                    target="_blank">https://division.iium.edu.my/ief/</a></p>
+        </div>
+    </section>
+
+
+
+    <button onclick="scrollToTop()" id="scrollBtn" title="Go to Top">Scroll to Top</button>
+
+    <script src="individualassignment.js"></script>
+
+
+
+</body>
+
+</html>

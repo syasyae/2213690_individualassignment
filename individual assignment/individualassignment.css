@@ -1,0 +1,247 @@
+body,
+html {
+    margin: 0;
+    padding: 0;
+    background-color: beige
+    
+}
+
+.header {
+    text-align: center;
+    position: relative;
+    height: 200px;
+    background-image: url("wp8982116-islamic-pattern-wallpapers.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+
+
+.logo-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+.logo {
+    max-width: 80px;
+    display: block;
+    margin: 0 auto;
+}
+
+#home .campaign-details {
+    text-align: center;
+    padding: 20px;
+   
+}
+
+#home .website-name {
+    font-size: 36px;
+    margin-top: 20px;
+    color: #333;
+}
+
+#home .tagline {
+    font-size: 22px;
+    font-style: italic;
+    margin-bottom: 8px;
+    color: #555;
+}
+
+#home .tagline2 {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 8px;
+    color: #333;
+}
+
+#home .tagline3 {
+    font-size: 22px;
+    font-style: italic;
+    margin-bottom: 20px;
+    color: #555;
+}
+
+#home .surah {
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #444;
+    line-height: 1.6;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.navigation {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: #74accf;
+}
+
+.navigation ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    
+}
+
+
+.navigation ul li {
+    margin: 0 10px;
+    display: inline-block;
+}
+
+.navigation ul li a {
+    text-decoration: none;
+    color: #333;
+    padding: 8px 16px;
+    transition: background-color 0.3s, color 0.3s;
+    /* Transition for smooth color change */
+}
+
+.navigation ul li a:hover {
+    color: rgb(49, 49, 100);
+    /* Change to your desired hover color */
+    background-color: rgb(248, 251, 255);
+    /* Change to the desired background color on hover */
+}
+
+.form-title {
+    font-size: 24px;
+    color: #333;
+    text-align: center;
+    margin-top: 40px; /* Adjust top margin as needed */
+    margin-bottom: 20px;
+
+}
+
+.my-form {
+    width: 60%;
+    /* Adjust the width as needed */
+    margin: 0 auto;
+    /* Center the form */
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+}
+
+.my-form label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.my-form input[type="text"],
+.my-form input[type="tel"],
+.my-form input[type="email"],
+.my-form input[type="number"],
+.my-form input[type="month"] {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.my-form input[type="radio"] {
+    margin-right: 5px;
+}
+
+.my-form input[type="submit"],
+.my-form input[type="reset"] {
+    background-color: #74accf;
+    color: white;
+    cursor: pointer;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    margin-right: 10px;
+    transition: background-color 0.3s;
+}
+
+.my-form input[type="submit"]:hover,
+.my-form input[type="reset"]:hover {
+    background-color: #3f77a5;
+}
+
+.contactsection {
+    color: #333;
+    padding: 20px;
+    background-color: #74accf;
+    border-radius: 5px;
+    margin-top: 20px; 
+    margin-bottom: 0;
+
+}
+
+.contact {
+    font-size: 24px;
+    color: #333;
+    font-weight: bold;
+    
+}
+
+.contact-info {
+    font-size: 14px; /* Increased font size for better readability */
+    line-height: 1.8; /* Increased line height for better spacing */
+    color: #555; /* Slightly lighter color for improved contrast */
+    max-width: 300px; /* Adjust maximum width as needed */
+   
+}
+
+.contact-info strong {
+    font-weight: bold;
+    color: #333; 
+}
+
+.contact-info a {
+    color: #007bff;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.contact-info a:hover {
+    text-decoration: underline;
+    color: #0056b3; 
+}
+
+#scrollBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 99;
+    font-size: 16px;
+    border: none;
+    outline: none;
+    background-color: #74accf;
+    color: white;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#scrollBtn:hover {
+    background-color: #0056b3;
+}
+
+.submitted-data {
+    text-align: left; 
+    margin: 0 auto; 
+    max-width: 600px; 
+    padding: 20px; 
+    background-color: #f9f9f9; 
+    border-radius: 8px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+    color: #333; 
+}
